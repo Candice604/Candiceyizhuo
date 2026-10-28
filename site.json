@@ -1,0 +1,6113 @@
+{
+  "schemaVersion": 1,
+  "title": "Untitled",
+  "pageName": "Page 1",
+  "startId": "1:1208",
+  "background": "rgba(0, 0, 0, 0)",
+  "fallback": "book",
+  "exportedAt": "2026-10-28T16:22:59.426Z",
+  "frames": [
+    {
+      "id": "1:1208",
+      "name": "HP",
+      "asset": "assets/HP-1-1208.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 0,
+      "hotspots": [
+        {
+          "id": "1:578:0",
+          "nodeId": "1:578",
+          "name": "book 01",
+          "rect": {
+            "x": 0.4042968629510145,
+            "y": 0.43159371310657874,
+            "width": 0.03433227436744349,
+            "height": 0.23216902784562773
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "1:1205",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SLIDE_IN",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "direction": "LEFT",
+                "matchLayers": false
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "1:747:0",
+          "nodeId": "1:747",
+          "name": "book 03",
+          "rect": {
+            "x": 0.4954261632136654,
+            "y": 0.4324486227304185,
+            "width": 0.03340911951931955,
+            "height": 0.2321622494745868
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "88:56838",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "MOVE_IN",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "direction": "LEFT",
+                "matchLayers": false
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "1:765:0",
+          "nodeId": "1:765",
+          "name": "book 02",
+          "rect": {
+            "x": 0.44228767030573873,
+            "y": 0.33740433154209415,
+            "width": 0.028980256125919337,
+            "height": 0.32635836965427045
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42297",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "MOVE_IN",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "direction": "LEFT",
+                "matchLayers": false
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "1:783:0",
+          "nodeId": "1:783",
+          "name": "book 04",
+          "rect": {
+            "x": 0.5354955036790519,
+            "y": 0.3654603472052597,
+            "width": 0.027679443465785877,
+            "height": 0.2983023937469467
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "94:76897",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "MOVE_IN",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "direction": "LEFT",
+                "matchLayers": false
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "1:801:0",
+          "nodeId": "1:801",
+          "name": "book 05",
+          "rect": {
+            "x": 0.5631751846320873,
+            "y": 0.3883597121295392,
+            "width": 0.033481597833883825,
+            "height": 0.27625116007546613
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "98:79234",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "MOVE_IN",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "direction": "LEFT",
+                "matchLayers": false
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": null
+    },
+    {
+      "id": "1:1205",
+      "name": "01 cover",
+      "asset": "assets/01-cover-1-1205.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 1,
+      "hotspots": [
+        {
+          "id": "19:65301:0",
+          "nodeId": "19:65301",
+          "name": "第一页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.14069369809477283,
+            "width": 0.288806914126667,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "13:61626",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": null,
+        "right": {
+          "x": 0.5003605335843404,
+          "y": 0.14069369809477283,
+          "width": 0.2888069364784081,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "13:61626",
+      "name": "01 P1",
+      "asset": "assets/01-P1-13-61626.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 2,
+      "hotspots": [
+        {
+          "id": "19:65302:0",
+          "nodeId": "19:65302",
+          "name": "第一页",
+          "rect": {
+            "x": 0.21166991556674494,
+            "y": 0.14069369809477283,
+            "width": 0.288806914126667,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "1:1205",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "31:7832:0",
+          "nodeId": "31:7832",
+          "name": "第二页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.14069369809477283,
+            "width": 0.288806914126667,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "13:61546",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.2115535971059323,
+          "y": 0.14069369809477283,
+          "width": 0.2888069364784081,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5003605335843404,
+          "y": 0.14069369809477283,
+          "width": 0.2888069364784081,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "13:61546",
+      "name": "01 P2",
+      "asset": "assets/01-P2-13-61546.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 3,
+      "hotspots": [
+        {
+          "id": "31:7833:0",
+          "nodeId": "31:7833",
+          "name": "第二页",
+          "rect": {
+            "x": 0.21166991556674494,
+            "y": 0.14069369809477283,
+            "width": 0.288806914126667,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "13:61626",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "35:17712:0",
+          "nodeId": "35:17712",
+          "name": "第三页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.1419964175215763,
+            "width": 0.2895393359798391,
+            "height": 0.7193793349769989
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "13:61547",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.2115535971059323,
+          "y": 0.14069369809477283,
+          "width": 0.2888069364784081,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5003605335843404,
+          "y": 0.14069369809477283,
+          "width": 0.2888069364784081,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "13:61547",
+      "name": "01 P3",
+      "asset": "assets/01-P3-13-61547.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 4,
+      "hotspots": [
+        {
+          "id": "35:18299:0",
+          "nodeId": "35:18299",
+          "name": "第三页",
+          "rect": {
+            "x": 0.21093749371357282,
+            "y": 0.14069369809477283,
+            "width": 0.2895393359798391,
+            "height": 0.7193793349769989
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "13:61546",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "35:19778:0",
+          "nodeId": "35:19778",
+          "name": "第四页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.14069369809477283,
+            "width": 0.2888183582181228,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "13:61548",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.2115535971059323,
+          "y": 0.14069369809477283,
+          "width": 0.2888069364784081,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5003605335843404,
+          "y": 0.14069369809477283,
+          "width": 0.2888069364784081,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "13:61548",
+      "name": "01 P4",
+      "asset": "assets/01-P4-13-61548.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 5,
+      "hotspots": [
+        {
+          "id": "35:19779:0",
+          "nodeId": "35:19779",
+          "name": "第四页",
+          "rect": {
+            "x": 0.21167002732545057,
+            "y": 0.14069369809477283,
+            "width": 0.2888183582181228,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "13:61547",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "35:23029:0",
+          "nodeId": "35:23029",
+          "name": "第五页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.14069369809477283,
+            "width": 0.2888069364784081,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "35:15190",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.2115535971059323,
+          "y": 0.14069369809477283,
+          "width": 0.2888069364784081,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5003605335843404,
+          "y": 0.14069369809477283,
+          "width": 0.2888069364784081,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "35:15190",
+      "name": "01 P5",
+      "asset": "assets/01-P5-35-15190.png",
+      "width": 1366,
+      "height": 768,
+      "order": 6,
+      "hotspots": [
+        {
+          "id": "35:23030:0",
+          "nodeId": "35:23030",
+          "name": "第五页",
+          "rect": {
+            "x": 0.21156670722570461,
+            "y": 0.140625,
+            "width": 0.28866599489270683,
+            "height": 0.7187906901041666
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "13:61548",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "35:24160:0",
+          "nodeId": "35:24160",
+          "name": "第六页",
+          "rect": {
+            "x": 0.5,
+            "y": 0.140625,
+            "width": 0.28866599489270683,
+            "height": 0.7187906901041666
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "35:17636",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.2115535971059323,
+          "y": 0.14069369809477283,
+          "width": 0.2888069364784081,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5003605335843404,
+          "y": 0.14069369809477283,
+          "width": 0.2888069364784081,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "35:17636",
+      "name": "01 P6",
+      "asset": "assets/01-P6-35-17636.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 7,
+      "hotspots": [
+        {
+          "id": "38:26977:0",
+          "nodeId": "38:26977",
+          "name": "第七页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.14069369809477283,
+            "width": 0.2890701952853741,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "38:27235",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "35:24161:0",
+          "nodeId": "35:24161",
+          "name": "第六页",
+          "rect": {
+            "x": 0.21167000497370944,
+            "y": 0.14069369809477283,
+            "width": 0.2888069364784081,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "35:15190",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.2115535971059323,
+          "y": 0.14069369809477283,
+          "width": 0.2888069364784081,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5003605335843404,
+          "y": 0.14069369809477283,
+          "width": 0.2888069364784081,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "38:27235",
+      "name": "01 P7",
+      "asset": "assets/01-P7-38-27235.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 8,
+      "hotspots": [
+        {
+          "id": "38:26978:0",
+          "nodeId": "38:26978",
+          "name": "第七页",
+          "rect": {
+            "x": 0.21093753841705506,
+            "y": 0.14069369809477283,
+            "width": 0.2890701952853741,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "35:17636",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "38:27279:0",
+          "nodeId": "38:27279",
+          "name": "GBH",
+          "rect": {
+            "x": 0.27854131822164896,
+            "y": 0.6464210836997232,
+            "width": 0.1541252127550479,
+            "height": 0.04262335124572545
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "1:1208",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SLIDE_IN",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "direction": "RIGHT",
+                "matchLayers": false
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.2115535971059323,
+          "y": 0.14069369809477283,
+          "width": 0.2888069364784081,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5003605335843404,
+          "y": 0.14069369809477283,
+          "width": 0.2888069364784081,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "54:42297",
+      "name": "02 cover",
+      "asset": "assets/02-cover-54-42297.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 9,
+      "hotspots": [
+        {
+          "id": "56:52422:0",
+          "nodeId": "56:52422",
+          "name": "第一页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.14069369809477283,
+            "width": 0.49239584826243377,
+            "height": 0.7338518926325109
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42298",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": null,
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "54:42298",
+      "name": "02 P1",
+      "asset": "assets/02-P1-54-42298.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 10,
+      "hotspots": [
+        {
+          "id": "56:52423:0",
+          "nodeId": "56:52423",
+          "name": "第一页",
+          "rect": {
+            "x": 0.008056774495340153,
+            "y": 0.14069369809477283,
+            "width": 0.49239584826243377,
+            "height": 0.7338518926325109
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42297",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "56:53431:0",
+          "nodeId": "56:53431",
+          "name": "第二页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.13678553981436248,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42299",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "54:42299",
+      "name": "02 P2",
+      "asset": "assets/02-P2-54-42299.png",
+      "width": 1365.3333740234375,
+      "height": 767.6302490234375,
+      "order": 11,
+      "hotspots": [
+        {
+          "id": "56:53432:0",
+          "nodeId": "56:53432",
+          "name": "第二页",
+          "rect": {
+            "x": 0.05639648269425384,
+            "y": 0.14069273603716795,
+            "width": 0.44377897847357456,
+            "height": 0.7191369161159062
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42298",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "81:2069:0",
+          "nodeId": "81:2069",
+          "name": "第三页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.14069273603716795,
+            "width": 0.487830594544691,
+            "height": 0.7191369161159062
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42300",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "54:42300",
+      "name": "02 P3",
+      "asset": "assets/02-P3-54-42300.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 12,
+      "hotspots": [
+        {
+          "id": "81:3924:0",
+          "nodeId": "81:3924",
+          "name": "第三页",
+          "rect": {
+            "x": 0.011718660243789546,
+            "y": 0.14069369809477283,
+            "width": 0.487830594544691,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42299",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "81:6598:0",
+          "nodeId": "81:6598",
+          "name": "第四页",
+          "rect": {
+            "x": 0.4899902197721535,
+            "y": 0.14069369809477283,
+            "width": 0.4481735095926073,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42301",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "54:42301",
+      "name": "02 P4",
+      "asset": "assets/02-P4-54-42301.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 13,
+      "hotspots": [
+        {
+          "id": "81:6599:0",
+          "nodeId": "81:6599",
+          "name": "第四页",
+          "rect": {
+            "x": 0.057861326400598094,
+            "y": 0.14069369809477283,
+            "width": 0.4481735095926073,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42300",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "81:7603:0",
+          "nodeId": "81:7603",
+          "name": "第五页",
+          "rect": {
+            "x": 0.5017089694229075,
+            "y": 0.14069369809477283,
+            "width": 0.44471359417696016,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42302",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "54:42302",
+      "name": "02 P5",
+      "asset": "assets/02-P5-54-42302.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 14,
+      "hotspots": [
+        {
+          "id": "81:7604:0",
+          "nodeId": "81:7604",
+          "name": "第五页",
+          "rect": {
+            "x": 0.05712877043697922,
+            "y": 0.14069369809477283,
+            "width": 0.44471359417696016,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42301",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "81:8216:0",
+          "nodeId": "81:8216",
+          "name": "第六页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.14069369809477283,
+            "width": 0.44411456751481987,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42303",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "54:42303",
+      "name": "02 P6",
+      "asset": "assets/02-P6-54-42303.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 15,
+      "hotspots": [
+        {
+          "id": "81:8238:0",
+          "nodeId": "81:8238",
+          "name": "第六页",
+          "rect": {
+            "x": 0.052734239317946456,
+            "y": 0.13808825924116594,
+            "width": 0.44411456751481987,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42302",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "81:10347:0",
+          "nodeId": "81:10347",
+          "name": "第七页",
+          "rect": {
+            "x": 0.49658201645070266,
+            "y": 0.13808825924116594,
+            "width": 0.4446336196472162,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42304",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "54:42304",
+      "name": "02 P7",
+      "asset": "assets/02-P7-54-42304.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 16,
+      "hotspots": [
+        {
+          "id": "81:11536:0",
+          "nodeId": "81:11536",
+          "name": "第七页",
+          "rect": {
+            "x": 0.05639657210121834,
+            "y": 0.14069369809477283,
+            "width": 0.4446336196472162,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42303",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "81:12638:0",
+          "nodeId": "81:12638",
+          "name": "第八页",
+          "rect": {
+            "x": 0.49877928201021904,
+            "y": 0.14069369809477283,
+            "width": 0.44397348332484116,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42305",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "54:42305",
+      "name": "02 P8",
+      "asset": "assets/02-P8-54-42305.png",
+      "width": 1365.3333740234375,
+      "height": 791.04150390625,
+      "order": 17,
+      "hotspots": [
+        {
+          "id": "81:12639:0",
+          "nodeId": "81:12639",
+          "name": "第八页",
+          "rect": {
+            "x": 0.057128949250908216,
+            "y": 0.1656044586195637,
+            "width": 0.44397348332484116,
+            "height": 0.6978537121933666
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42304",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "81:13244:0",
+          "nodeId": "81:13244",
+          "name": "第九页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.1656044586195637,
+            "width": 0.44377897847357456,
+            "height": 0.6978537121933666
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42306",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "54:42306",
+      "name": "02 P9",
+      "asset": "assets/02-P9-54-42306.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 18,
+      "hotspots": [
+        {
+          "id": "81:13245:0",
+          "nodeId": "81:13245",
+          "name": "第九页",
+          "rect": {
+            "x": 0.05639648269425384,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42305",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "81:15445:0",
+          "nodeId": "81:15445",
+          "name": "第十页",
+          "rect": {
+            "x": 0.49951170386339117,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42307",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "54:42307",
+      "name": "02 P10",
+      "asset": "assets/02-P10-54-42307.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 19,
+      "hotspots": [
+        {
+          "id": "81:16194:0",
+          "nodeId": "81:16194",
+          "name": "第十页",
+          "rect": {
+            "x": 0.05712890454742597,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42306",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "81:18385:0",
+          "nodeId": "81:18385",
+          "name": "第十一页",
+          "rect": {
+            "x": 0.49951170386339117,
+            "y": 0.14069369809477283,
+            "width": 0.4799730634697359,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42308",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "54:42308",
+      "name": "02 P11",
+      "asset": "assets/02-P11-54-42308.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 20,
+      "hotspots": [
+        {
+          "id": "81:18602:0",
+          "nodeId": "81:18602",
+          "name": "第十一页",
+          "rect": {
+            "x": 0.021972655595163836,
+            "y": 0.14069369809477283,
+            "width": 0.4799730634697359,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42307",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "81:19208:0",
+          "nodeId": "81:19208",
+          "name": "第十二页",
+          "rect": {
+            "x": 0.49658201645070266,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42309",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "54:42309",
+      "name": "02 P12",
+      "asset": "assets/02-P12-54-42309.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 21,
+      "hotspots": [
+        {
+          "id": "81:19279:0",
+          "nodeId": "81:19279",
+          "name": "第十二页",
+          "rect": {
+            "x": 0.05639648269425384,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42308",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "81:19495:0",
+          "nodeId": "81:19495",
+          "name": "第十三页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.14069369809477283,
+            "width": 0.44594575625819693,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42310",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "54:42310",
+      "name": "02 P13",
+      "asset": "assets/02-P13-54-42310.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 22,
+      "hotspots": [
+        {
+          "id": "81:19496:0",
+          "nodeId": "81:19496",
+          "name": "第十三页",
+          "rect": {
+            "x": 0.05419930654170196,
+            "y": 0.14069369809477283,
+            "width": 0.44594575625819693,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42309",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "81:19790:0",
+          "nodeId": "81:19790",
+          "name": "第十四页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.719148671582397
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42311",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "54:42311",
+      "name": "02 P14",
+      "asset": "assets/02-P14-54-42311.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 23,
+      "hotspots": [
+        {
+          "id": "81:19812:0",
+          "nodeId": "81:19812",
+          "name": "第十四页",
+          "rect": {
+            "x": 0.05712890454742597,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.719148671582397
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42310",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "81:20131:0",
+          "nodeId": "81:20131",
+          "name": "第十五页",
+          "rect": {
+            "x": 0.5009765475697354,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42312",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "54:42312",
+      "name": "02 P15",
+      "asset": "assets/02-P15-54-42312.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 24,
+      "hotspots": [
+        {
+          "id": "81:20132:0",
+          "nodeId": "81:20132",
+          "name": "第十五页",
+          "rect": {
+            "x": 0.05639648269425384,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42311",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "82:20259:0",
+          "nodeId": "82:20259",
+          "name": "第十六页",
+          "rect": {
+            "x": 0.49877928201021904,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42313",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "54:42313",
+      "name": "02 P16",
+      "asset": "assets/02-P16-54-42313.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 25,
+      "hotspots": [
+        {
+          "id": "82:20281:0",
+          "nodeId": "82:20281",
+          "name": "第十六页",
+          "rect": {
+            "x": 0.05639648269425384,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42312",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "82:20686:0",
+          "nodeId": "82:20686",
+          "name": "第十七页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.14069369809477283,
+            "width": 0.4797631359170933,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42314",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "54:42314",
+      "name": "02 P17",
+      "asset": "assets/02-P17-54-42314.png",
+      "width": 1365.3333740234375,
+      "height": 767.6302490234375,
+      "order": 26,
+      "hotspots": [
+        {
+          "id": "82:20687:0",
+          "nodeId": "82:20687",
+          "name": "第十七页",
+          "rect": {
+            "x": 0.020507811888819578,
+            "y": 0.14069273603716795,
+            "width": 0.4797631359170933,
+            "height": 0.7191369161159062
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42313",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "82:21533:0",
+          "nodeId": "82:21533",
+          "name": "第十七页‘",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.14069273603716795,
+            "width": 0.44377897847357456,
+            "height": 0.7191369161159062
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42315",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "54:42315",
+      "name": "02 P18",
+      "asset": "assets/02-P18-54-42315.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 27,
+      "hotspots": [
+        {
+          "id": "82:21534:0",
+          "nodeId": "82:21534",
+          "name": "第十七页‘",
+          "rect": {
+            "x": 0.05639648269425384,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42314",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "82:21534:1",
+          "nodeId": "82:21534",
+          "name": "第十七页‘",
+          "rect": {
+            "x": 0.05639648269425384,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_DRAG"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42314",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "82:22966:0",
+          "nodeId": "82:22966",
+          "name": "第十八页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7193453834880312
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42316",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "54:42316",
+      "name": "02 P19",
+      "asset": "assets/02-P19-54-42316.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 28,
+      "hotspots": [
+        {
+          "id": "82:22967:0",
+          "nodeId": "82:22967",
+          "name": "第十八页",
+          "rect": {
+            "x": 0.05639648269425384,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7193453834880312
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42315",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "82:24172:0",
+          "nodeId": "82:24172",
+          "name": "第十九页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.14069369809477283,
+            "width": 0.4909787031716495,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:46313",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "54:46313",
+      "name": "02 P20",
+      "asset": "assets/02-P20-54-46313.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 29,
+      "hotspots": [
+        {
+          "id": "82:24173:0",
+          "nodeId": "82:24173",
+          "name": "第十九页",
+          "rect": {
+            "x": 0.009521484091237662,
+            "y": 0.14069369809477283,
+            "width": 0.4909787031716495,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:42316",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "82:25057:0",
+          "nodeId": "82:25057",
+          "name": "第二十页",
+          "rect": {
+            "x": 0.49951170386339117,
+            "y": 0.13808825924116594,
+            "width": 0.44377897847357456,
+            "height": 0.7217472724312002
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:46314",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "54:46314",
+      "name": "02 P21",
+      "asset": "assets/02-P21-54-46314.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 30,
+      "hotspots": [
+        {
+          "id": "82:25058:0",
+          "nodeId": "82:25058",
+          "name": "第二十页",
+          "rect": {
+            "x": 0.05639648269425384,
+            "y": 0.13808825924116594,
+            "width": 0.44377897847357456,
+            "height": 0.7217472724312002
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:46313",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "82:25123:0",
+          "nodeId": "82:25123",
+          "name": "第二十一页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:46315",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "54:46315",
+      "name": "02 P22",
+      "asset": "assets/02-P22-54-46315.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 31,
+      "hotspots": [
+        {
+          "id": "82:25124:0",
+          "nodeId": "82:25124",
+          "name": "第二十一页",
+          "rect": {
+            "x": 0.05639648269425384,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:46314",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "82:25193:0",
+          "nodeId": "82:25193",
+          "name": "第二十二页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:46316",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "54:46316",
+      "name": "02 P23",
+      "asset": "assets/02-P23-54-46316.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 32,
+      "hotspots": [
+        {
+          "id": "82:25194:0",
+          "nodeId": "82:25194",
+          "name": "第二十二页",
+          "rect": {
+            "x": 0.05639648269425384,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:46315",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "82:25276:0",
+          "nodeId": "82:25276",
+          "name": "第二十三页",
+          "rect": {
+            "x": 0.49951170386339117,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:46317",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "54:46317",
+      "name": "02 P24",
+      "asset": "assets/02-P24-54-46317.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 33,
+      "hotspots": [
+        {
+          "id": "82:25277:0",
+          "nodeId": "82:25277",
+          "name": "第二十三页",
+          "rect": {
+            "x": 0.05712890454742597,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:46316",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "82:26432:0",
+          "nodeId": "82:26432",
+          "name": "第二十四页",
+          "rect": {
+            "x": 0.5009765475697354,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:46318",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "54:46318",
+      "name": "02 P25",
+      "asset": "assets/02-P25-54-46318.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 34,
+      "hotspots": [
+        {
+          "id": "82:26433:0",
+          "nodeId": "82:26433",
+          "name": "第二十四页",
+          "rect": {
+            "x": 0.05566406084108171,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:46317",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "82:29119:0",
+          "nodeId": "82:29119",
+          "name": "第二十五页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.14069369809477283,
+            "width": 0.4672354320515563,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:46319",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "54:46319",
+      "name": "02 P26",
+      "asset": "assets/02-P26-54-46319.png",
+      "width": 1366,
+      "height": 768,
+      "order": 35,
+      "hotspots": [
+        {
+          "id": "82:29120:0",
+          "nodeId": "82:29120",
+          "name": "第二十五页",
+          "rect": {
+            "x": 0.03294289897510981,
+            "y": 0.140625,
+            "width": 0.467007415011896,
+            "height": 0.7187906901041666
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:46318",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "82:31325:0",
+          "nodeId": "82:31325",
+          "name": "第二十六页",
+          "rect": {
+            "x": 0.5,
+            "y": 0.140625,
+            "width": 0.4441189633281479,
+            "height": 0.7187906901041666
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:48081",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "54:48081",
+      "name": "02 P27",
+      "asset": "assets/02-P27-54-48081.png",
+      "width": 1366,
+      "height": 768,
+      "order": 36,
+      "hotspots": [
+        {
+          "id": "82:31326:0",
+          "nodeId": "82:31326",
+          "name": "第二十六页",
+          "rect": {
+            "x": 0.05490483162518302,
+            "y": 0.140625,
+            "width": 0.4441189633281479,
+            "height": 0.7187906901041666
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:46319",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "82:33432:0",
+          "nodeId": "82:33432",
+          "name": "第二十七页",
+          "rect": {
+            "x": 0.5,
+            "y": 0.140625,
+            "width": 0.4435624084919473,
+            "height": 0.7187906901041666
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:49097",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "54:49097",
+      "name": "02 P28",
+      "asset": "assets/02-P28-54-49097.png",
+      "width": 1366,
+      "height": 768,
+      "order": 37,
+      "hotspots": [
+        {
+          "id": "82:33433:0",
+          "nodeId": "82:33433",
+          "name": "第二十七页",
+          "rect": {
+            "x": 0.05636896046852123,
+            "y": 0.140625,
+            "width": 0.4435624084919473,
+            "height": 0.7187906901041666
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:48081",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "82:33688:0",
+          "nodeId": "82:33688",
+          "name": "第二十七页‘",
+          "rect": {
+            "x": 0.5,
+            "y": 0.140625,
+            "width": 0.4738018879255124,
+            "height": 0.7187906901041666
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:49405",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "54:49405",
+      "name": "02 P29",
+      "asset": "assets/02-P29-54-49405.png",
+      "width": 1366,
+      "height": 768,
+      "order": 38,
+      "hotspots": [
+        {
+          "id": "82:33689:0",
+          "nodeId": "82:33689",
+          "name": "第二十七页‘",
+          "rect": {
+            "x": 0.02855051244509517,
+            "y": 0.140625,
+            "width": 0.4738018879255124,
+            "height": 0.7187906901041666
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:49097",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "82:33689:1",
+          "nodeId": "82:33689",
+          "name": "第二十七页‘",
+          "rect": {
+            "x": 0.02855051244509517,
+            "y": 0.140625,
+            "width": 0.4738018879255124,
+            "height": 0.7187906901041666
+          },
+          "trigger": {
+            "type": "ON_DRAG"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:49097",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "82:34454:0",
+          "nodeId": "82:34454",
+          "name": "第二十八页",
+          "rect": {
+            "x": 0.4992679355783309,
+            "y": 0.140625,
+            "width": 0.49283904805888545,
+            "height": 0.7326664129892985
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:50062",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "54:50062",
+      "name": "02 P30",
+      "asset": "assets/02-P30-54-50062.png",
+      "width": 1366,
+      "height": 768,
+      "order": 39,
+      "hotspots": [
+        {
+          "id": "82:35081:0",
+          "nodeId": "82:35081",
+          "name": "第二十八页",
+          "rect": {
+            "x": 0.006588669158354685,
+            "y": 0.140625,
+            "width": 0.49283904805888545,
+            "height": 0.7326664129892985
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:49405",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "82:35709:0",
+          "nodeId": "82:35709",
+          "name": "第二十九页",
+          "rect": {
+            "x": 0.5,
+            "y": 0.140625,
+            "width": 0.4821940878648884,
+            "height": 0.7187906901041666
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:51323",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "54:51323",
+      "name": "02 P31",
+      "asset": "assets/02-P31-54-51323.png",
+      "width": 1366,
+      "height": 768,
+      "order": 40,
+      "hotspots": [
+        {
+          "id": "82:36692:0",
+          "nodeId": "82:36692",
+          "name": "第二十九页",
+          "rect": {
+            "x": 0.01756963548339129,
+            "y": 0.140625,
+            "width": 0.4821940878648884,
+            "height": 0.7187906901041666
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "54:50062",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "82:36766:0",
+          "nodeId": "82:36766",
+          "name": "Clip path group",
+          "rect": {
+            "x": 0.3100639555499634,
+            "y": 0.6745402018229166,
+            "width": 0.15404999762293534,
+            "height": 0.0426025390625
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "1:1208",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "MOVE_IN",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "direction": "RIGHT",
+                "matchLayers": false
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "88:56838",
+      "name": "03 cover",
+      "asset": "assets/03-cover-88-56838.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 41,
+      "hotspots": [
+        {
+          "id": "88:57284:0",
+          "nodeId": "88:57284",
+          "name": "第一页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.10030939586386582,
+            "width": 0.23291014930873663,
+            "height": 0.7833821853118385
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "88:56839",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": null,
+        "right": {
+          "x": 0.5002441257165633,
+          "y": 0.10030939586386582,
+          "width": 0.23291014930873663,
+          "height": 0.7833821853118385
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "88:56839",
+      "name": "03 P1",
+      "asset": "assets/03-P1-88-56839.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 42,
+      "hotspots": [
+        {
+          "id": "88:59002:0",
+          "nodeId": "88:59002",
+          "name": "第一页",
+          "rect": {
+            "x": 0.26733397640782663,
+            "y": 0.10030939586386582,
+            "width": 0.23291014930873663,
+            "height": 0.7833821853118385
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "88:56838",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "88:60721:0",
+          "nodeId": "88:60721",
+          "name": "第二页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.10030939586386582,
+            "width": 0.23291014930873663,
+            "height": 0.7833821853118385
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "88:56840",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.26733397640782663,
+          "y": 0.10030939586386582,
+          "width": 0.23291014930873663,
+          "height": 0.7833821853118385
+        },
+        "right": {
+          "x": 0.5002441257165633,
+          "y": 0.10030939586386582,
+          "width": 0.23291014930873663,
+          "height": 0.7833821853118385
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "88:56840",
+      "name": "03 P2",
+      "asset": "assets/03-P2-88-56840.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 43,
+      "hotspots": [
+        {
+          "id": "88:60722:0",
+          "nodeId": "88:60722",
+          "name": "第二页",
+          "rect": {
+            "x": 0.26733397640782663,
+            "y": 0.10030939586386582,
+            "width": 0.23291014930873663,
+            "height": 0.7833821853118385
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "88:56839",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "88:62483:0",
+          "nodeId": "88:62483",
+          "name": "第三页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.10030939586386582,
+            "width": 0.23291014930873663,
+            "height": 0.7833821853118385
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "88:56841",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.26733397640782663,
+          "y": 0.10030939586386582,
+          "width": 0.23291014930873663,
+          "height": 0.7833821853118385
+        },
+        "right": {
+          "x": 0.5002441257165633,
+          "y": 0.10030939586386582,
+          "width": 0.23291014930873663,
+          "height": 0.7833821853118385
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "88:56841",
+      "name": "03 P3",
+      "asset": "assets/03-P3-88-56841.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 44,
+      "hotspots": [
+        {
+          "id": "88:62484:0",
+          "nodeId": "88:62484",
+          "name": "第三页",
+          "rect": {
+            "x": 0.26733397640782663,
+            "y": 0.10030939586386582,
+            "width": 0.23291014930873663,
+            "height": 0.7833821853118385
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "88:56840",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "88:65211:0",
+          "nodeId": "88:65211",
+          "name": "第四页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.10030939586386582,
+            "width": 0.23291014930873663,
+            "height": 0.7833821853118385
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "88:56842",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.26733397640782663,
+          "y": 0.10030939586386582,
+          "width": 0.23291014930873663,
+          "height": 0.7833821853118385
+        },
+        "right": {
+          "x": 0.5002441257165633,
+          "y": 0.10030939586386582,
+          "width": 0.23291014930873663,
+          "height": 0.7833821853118385
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "88:56842",
+      "name": "03 P4",
+      "asset": "assets/03-P4-88-56842.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 45,
+      "hotspots": [
+        {
+          "id": "88:65212:0",
+          "nodeId": "88:65212",
+          "name": "第四页",
+          "rect": {
+            "x": 0.26733397640782663,
+            "y": 0.10030939586386582,
+            "width": 0.23291014930873663,
+            "height": 0.7833821853118385
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "88:56841",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "88:66439:0",
+          "nodeId": "88:66439",
+          "name": "第五页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.10030939586386582,
+            "width": 0.23291014930873663,
+            "height": 0.7833821853118385
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "88:56843",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.26733397640782663,
+          "y": 0.10030939586386582,
+          "width": 0.23291014930873663,
+          "height": 0.7833821853118385
+        },
+        "right": {
+          "x": 0.5002441257165633,
+          "y": 0.10030939586386582,
+          "width": 0.23291014930873663,
+          "height": 0.7833821853118385
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "88:56843",
+      "name": "03 P5",
+      "asset": "assets/03-P5-88-56843.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 46,
+      "hotspots": [
+        {
+          "id": "88:66440:0",
+          "nodeId": "88:66440",
+          "name": "第五页",
+          "rect": {
+            "x": 0.26733397640782663,
+            "y": 0.10030939586386582,
+            "width": 0.23291014930873663,
+            "height": 0.7833821853118385
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "88:56842",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "88:69171:0",
+          "nodeId": "88:69171",
+          "name": "第六页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.10030939586386582,
+            "width": 0.23291014930873663,
+            "height": 0.7833821853118385
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "88:56844",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.26733397640782663,
+          "y": 0.10030939586386582,
+          "width": 0.23291014930873663,
+          "height": 0.7833821853118385
+        },
+        "right": {
+          "x": 0.5002441257165633,
+          "y": 0.10030939586386582,
+          "width": 0.23291014930873663,
+          "height": 0.7833821853118385
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "88:56844",
+      "name": "03 P6",
+      "asset": "assets/03-P6-88-56844.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 47,
+      "hotspots": [
+        {
+          "id": "88:69172:0",
+          "nodeId": "88:69172",
+          "name": "第六页",
+          "rect": {
+            "x": 0.26733397640782663,
+            "y": 0.10030939586386582,
+            "width": 0.23291014930873663,
+            "height": 0.7833821853118385
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "88:56843",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "88:72155:0",
+          "nodeId": "88:72155",
+          "name": "第七页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.10030939586386582,
+            "width": 0.23291014930873663,
+            "height": 0.7833821853118385
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "88:56845",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.26733397640782663,
+          "y": 0.10030939586386582,
+          "width": 0.23291014930873663,
+          "height": 0.7833821853118385
+        },
+        "right": {
+          "x": 0.5002441257165633,
+          "y": 0.10030939586386582,
+          "width": 0.23291014930873663,
+          "height": 0.7833821853118385
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "88:56845",
+      "name": "03 P7",
+      "asset": "assets/03-P7-88-56845.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 48,
+      "hotspots": [
+        {
+          "id": "88:72154:0",
+          "nodeId": "88:72154",
+          "name": "第七页",
+          "rect": {
+            "x": 0.26733397640782663,
+            "y": 0.10030939586386582,
+            "width": 0.23291014930873663,
+            "height": 0.7833821853118385
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "88:56844",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "88:74329:0",
+          "nodeId": "88:74329",
+          "name": "第八页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.10030939586386582,
+            "width": 0.23291014930873663,
+            "height": 0.7833821853118385
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "88:56846",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.26733397640782663,
+          "y": 0.10030939586386582,
+          "width": 0.23291014930873663,
+          "height": 0.7833821853118385
+        },
+        "right": {
+          "x": 0.5002441257165633,
+          "y": 0.10030939586386582,
+          "width": 0.23291014930873663,
+          "height": 0.7833821853118385
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "88:56846",
+      "name": "03 P8",
+      "asset": "assets/03-P8-88-56846.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 49,
+      "hotspots": [
+        {
+          "id": "88:74330:0",
+          "nodeId": "88:74330",
+          "name": "第八页",
+          "rect": {
+            "x": 0.26709221997582255,
+            "y": 0.10000915974596972,
+            "width": 0.23291014930873663,
+            "height": 0.7833821853118385
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "88:56845",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "88:76071:0",
+          "nodeId": "88:76071",
+          "name": "Clip path group",
+          "rect": {
+            "x": 0.27853631143163704,
+            "y": 0.6461615575639147,
+            "width": 0.1541252127550479,
+            "height": 0.04262335124572545
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "1:1208",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "MOVE_IN",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "direction": "RIGHT",
+                "matchLayers": false
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.26733397640782663,
+          "y": 0.10030939586386582,
+          "width": 0.23291014930873663,
+          "height": 0.7833821853118385
+        },
+        "right": {
+          "x": 0.5002441257165633,
+          "y": 0.10030939586386582,
+          "width": 0.23291014930873663,
+          "height": 0.7833821853118385
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "94:76897",
+      "name": "04 cover",
+      "asset": "assets/04-cover-94-76897.png",
+      "width": 1365.3333740234375,
+      "height": 767.6302490234375,
+      "order": 50,
+      "hotspots": [
+        {
+          "id": "94:77001:0",
+          "nodeId": "94:77001",
+          "name": "第一页",
+          "rect": {
+            "x": 0.5017089694229075,
+            "y": 0.14069273603716795,
+            "width": 0.44377897847357456,
+            "height": 0.7191369161159062
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "94:76898",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": null,
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "94:76898",
+      "name": "04 P1",
+      "asset": "assets/04-P1-94-76898.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 51,
+      "hotspots": [
+        {
+          "id": "94:77002:0",
+          "nodeId": "94:77002",
+          "name": "第一页",
+          "rect": {
+            "x": 0.05639648269425384,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "94:76897",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "94:77063:0",
+          "nodeId": "94:77063",
+          "name": "第二页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "94:76899",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "94:76899",
+      "name": "04 P2",
+      "asset": "assets/04-P2-94-76899.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 52,
+      "hotspots": [
+        {
+          "id": "94:77064:0",
+          "nodeId": "94:77064",
+          "name": "第二页",
+          "rect": {
+            "x": 0.05639648269425384,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "94:76898",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "94:77109:0",
+          "nodeId": "94:77109",
+          "name": "第三页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "94:76900",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "94:76900",
+      "name": "04 P3",
+      "asset": "assets/04-P3-94-76900.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 53,
+      "hotspots": [
+        {
+          "id": "94:77110:0",
+          "nodeId": "94:77110",
+          "name": "第三页",
+          "rect": {
+            "x": 0.05639648269425384,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "94:76899",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "94:77155:0",
+          "nodeId": "94:77155",
+          "name": "第四页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "94:76901",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "94:76901",
+      "name": "04 P4",
+      "asset": "assets/04-P4-94-76901.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 54,
+      "hotspots": [
+        {
+          "id": "94:77156:0",
+          "nodeId": "94:77156",
+          "name": "第四页",
+          "rect": {
+            "x": 0.05639648269425384,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "94:76900",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "94:77201:0",
+          "nodeId": "94:77201",
+          "name": "第五页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "94:76902",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "94:76902",
+      "name": "04 P5",
+      "asset": "assets/04-P5-94-76902.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 55,
+      "hotspots": [
+        {
+          "id": "94:77223:0",
+          "nodeId": "94:77223",
+          "name": "第五页",
+          "rect": {
+            "x": 0.05639648269425384,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "94:76901",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "94:77268:0",
+          "nodeId": "94:77268",
+          "name": "第六页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "94:76903",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "94:76903",
+      "name": "04 P6",
+      "asset": "assets/04-P6-94-76903.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 56,
+      "hotspots": [
+        {
+          "id": "94:77269:0",
+          "nodeId": "94:77269",
+          "name": "第六页",
+          "rect": {
+            "x": 0.05639648269425384,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "94:76902",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "94:77315:0",
+          "nodeId": "94:77315",
+          "name": "第七页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "94:76904",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "94:76904",
+      "name": "04 P7",
+      "asset": "assets/04-P7-94-76904.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 57,
+      "hotspots": [
+        {
+          "id": "94:77316:0",
+          "nodeId": "94:77316",
+          "name": "第七页",
+          "rect": {
+            "x": 0.05639648269425384,
+            "y": 0.1446018563751832,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "94:76903",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "94:77362:0",
+          "nodeId": "94:77362",
+          "name": "第八页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.1446018563751832,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "94:76905",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "94:76905",
+      "name": "04 P8",
+      "asset": "assets/04-P8-94-76905.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 58,
+      "hotspots": [
+        {
+          "id": "94:77363:0",
+          "nodeId": "94:77363",
+          "name": "第八页",
+          "rect": {
+            "x": 0.05639648269425384,
+            "y": 0.13939097866796937,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "94:76904",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "94:77408:0",
+          "nodeId": "94:77408",
+          "name": "第九页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.13939097866796937,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "94:76906",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "94:76906",
+      "name": "04 P9",
+      "asset": "assets/04-P9-94-76906.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 59,
+      "hotspots": [
+        {
+          "id": "94:77409:0",
+          "nodeId": "94:77409",
+          "name": "第九页",
+          "rect": {
+            "x": 0.05639648269425384,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "94:76905",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "94:77456:0",
+          "nodeId": "94:77456",
+          "name": "第十页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "94:76907",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "94:76907",
+      "name": "04 P10",
+      "asset": "assets/04-P10-94-76907.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 60,
+      "hotspots": [
+        {
+          "id": "94:77457:0",
+          "nodeId": "94:77457",
+          "name": "第十页",
+          "rect": {
+            "x": 0.05639648269425384,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "94:76906",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "94:77504:0",
+          "nodeId": "94:77504",
+          "name": "第十一页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "94:76908",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "94:76908",
+      "name": "04 P11",
+      "asset": "assets/04-P11-94-76908.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 61,
+      "hotspots": [
+        {
+          "id": "94:77544:0",
+          "nodeId": "94:77544",
+          "name": "第十一页",
+          "rect": {
+            "x": 0.05639648269425384,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "94:76907",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "94:77585:0",
+          "nodeId": "94:77585",
+          "name": "第十二页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "94:76909",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "94:76909",
+      "name": "04 P12",
+      "asset": "assets/04-P12-94-76909.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 62,
+      "hotspots": [
+        {
+          "id": "94:77586:0",
+          "nodeId": "94:77586",
+          "name": "第十二页",
+          "rect": {
+            "x": 0.05639648269425384,
+            "y": 0.13808825924116594,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "94:76908",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "94:77641:0",
+          "nodeId": "94:77641",
+          "name": "第十三页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.13808825924116594,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "94:76910",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "94:76910",
+      "name": "04 P13",
+      "asset": "assets/04-P13-94-76910.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 63,
+      "hotspots": [
+        {
+          "id": "94:77642:0",
+          "nodeId": "94:77642",
+          "name": "第十三页",
+          "rect": {
+            "x": 0.05639648269425384,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "94:76909",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "94:77734:0",
+          "nodeId": "94:77734",
+          "name": "第十四页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.14069369809477283,
+            "width": 0.44377897847357456,
+            "height": 0.719148671582397
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "94:76911",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "94:76911",
+      "name": "04 P14",
+      "asset": "assets/04-P14-94-76911.png",
+      "width": 1365.3333740234375,
+      "height": 767.6302490234375,
+      "order": 64,
+      "hotspots": [
+        {
+          "id": "94:77735:0",
+          "nodeId": "94:77735",
+          "name": "第十四页",
+          "rect": {
+            "x": 0.05859374825377022,
+            "y": 0.14069273603716795,
+            "width": 0.44377897847357456,
+            "height": 0.719143754073952
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "94:76910",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "94:77822:0",
+          "nodeId": "94:77822",
+          "name": "Clip path group",
+          "rect": {
+            "x": 0.3273925683679411,
+            "y": 0.7894425744307758,
+            "width": 0.1541252127550479,
+            "height": 0.04262305978903786
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "1:1208",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "MOVE_IN",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "direction": "RIGHT",
+                "matchLayers": false
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.05643081496862129,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5002097934421958,
+          "y": 0.14069369809477283,
+          "width": 0.44377897847357456,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "98:79234",
+      "name": "05 cover",
+      "asset": "assets/05-cover-98-79234.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 65,
+      "hotspots": [
+        {
+          "id": "98:79317:0",
+          "nodeId": "98:79317",
+          "name": "第一页",
+          "rect": {
+            "x": 0.5017089694229075,
+            "y": 0.14069369809477283,
+            "width": 0.2888070258853726,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "98:79235",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": null,
+        "right": {
+          "x": 0.5003605335843404,
+          "y": 0.14069369809477283,
+          "width": 0.2888070258853726,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "98:79235",
+      "name": "05 P1",
+      "asset": "assets/05-P1-98-79235.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 66,
+      "hotspots": [
+        {
+          "id": "98:79318:0",
+          "nodeId": "98:79318",
+          "name": "第一页",
+          "rect": {
+            "x": 0.2131347592730892,
+            "y": 0.14069369809477283,
+            "width": 0.2888070258853726,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "98:79234",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "98:79443:0",
+          "nodeId": "98:79443",
+          "name": "第二页",
+          "rect": {
+            "x": 0.5017089694229075,
+            "y": 0.14069369809477283,
+            "width": 0.288806914126667,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "98:79237",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.2115535076989678,
+          "y": 0.14069369809477283,
+          "width": 0.2888070258853726,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5003605335843404,
+          "y": 0.14069369809477283,
+          "width": 0.2888070258853726,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "98:79237",
+      "name": "05 P2",
+      "asset": "assets/05-P2-98-79237.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 67,
+      "hotspots": [
+        {
+          "id": "98:79444:0",
+          "nodeId": "98:79444",
+          "name": "第二页",
+          "rect": {
+            "x": 0.21093760547227844,
+            "y": 0.14069369809477283,
+            "width": 0.288806914126667,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "98:79235",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "98:80191:0",
+          "nodeId": "98:80191",
+          "name": "第三页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.14069369809477283,
+            "width": 0.2888070258853726,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "98:79238",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.2115535076989678,
+          "y": 0.14069369809477283,
+          "width": 0.2888070258853726,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5003605335843404,
+          "y": 0.14069369809477283,
+          "width": 0.2888070258853726,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "98:79238",
+      "name": "05 P3",
+      "asset": "assets/05-P3-98-79238.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 68,
+      "hotspots": [
+        {
+          "id": "98:80192:0",
+          "nodeId": "98:80192",
+          "name": "第三页",
+          "rect": {
+            "x": 0.21166991556674494,
+            "y": 0.14069369809477283,
+            "width": 0.2888070258853726,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "98:79237",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "98:80277:0",
+          "nodeId": "98:80277",
+          "name": "第四页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.14069369809477283,
+            "width": 0.2888070258853726,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "98:79239",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.2115535076989678,
+          "y": 0.14069369809477283,
+          "width": 0.2888070258853726,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5003605335843404,
+          "y": 0.14069369809477283,
+          "width": 0.2888070258853726,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "98:79239",
+      "name": "05 P4",
+      "asset": "assets/05-P4-98-79239.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 69,
+      "hotspots": [
+        {
+          "id": "98:80278:0",
+          "nodeId": "98:80278",
+          "name": "第四页",
+          "rect": {
+            "x": 0.21166991556674494,
+            "y": 0.14069369809477283,
+            "width": 0.2888070258853726,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "98:79238",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "98:80364:0",
+          "nodeId": "98:80364",
+          "name": "第五页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.1446018563751832,
+            "width": 0.2888070258853726,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "98:79240",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.2115535076989678,
+          "y": 0.14069369809477283,
+          "width": 0.2888070258853726,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5003605335843404,
+          "y": 0.14069369809477283,
+          "width": 0.2888070258853726,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "98:79240",
+      "name": "05 P5",
+      "asset": "assets/05-P5-98-79240.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 70,
+      "hotspots": [
+        {
+          "id": "98:80365:0",
+          "nodeId": "98:80365",
+          "name": "第五页",
+          "rect": {
+            "x": 0.21166991556674494,
+            "y": 0.14069369809477283,
+            "width": 0.2888070258853726,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "98:79239",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "98:80526:0",
+          "nodeId": "98:80526",
+          "name": "第六页",
+          "rect": {
+            "x": 0.5002441257165633,
+            "y": 0.14069369809477283,
+            "width": 0.2888070258853726,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "98:79241",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.2115535076989678,
+          "y": 0.14069369809477283,
+          "width": 0.2888070258853726,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5003605335843404,
+          "y": 0.14069369809477283,
+          "width": 0.2888070258853726,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    },
+    {
+      "id": "98:79241",
+      "name": "05 P6",
+      "asset": "assets/05-P6-98-79241.png",
+      "width": 1365.3333740234375,
+      "height": 767.625,
+      "order": 71,
+      "hotspots": [
+        {
+          "id": "98:80527:0",
+          "nodeId": "98:80527",
+          "name": "第六页",
+          "rect": {
+            "x": 0.21166991556674494,
+            "y": 0.1419964175215763,
+            "width": 0.2888070258853726,
+            "height": 0.7191418335775932
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "98:79240",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "SMART_ANIMATE",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                }
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        },
+        {
+          "id": "98:80658:0",
+          "nodeId": "98:80658",
+          "name": "Clip path group",
+          "rect": {
+            "x": 0.33105467763380175,
+            "y": 0.6500569939749227,
+            "width": 0.1541252127550479,
+            "height": 0.04262335124572545
+          },
+          "trigger": {
+            "type": "ON_CLICK"
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "1:1208",
+              "navigation": "NAVIGATE",
+              "transition": {
+                "type": "MOVE_IN",
+                "duration": 0.30000001192092896,
+                "easing": {
+                  "type": "EASE_OUT"
+                },
+                "direction": "RIGHT",
+                "matchLayers": false
+              },
+              "preserveScrollPosition": false,
+              "overlayRelativePosition": null
+            }
+          ]
+        }
+      ],
+      "bookRegions": {
+        "left": {
+          "x": 0.2115535076989678,
+          "y": 0.14069369809477283,
+          "width": 0.2888070258853726,
+          "height": 0.7191418335775932
+        },
+        "right": {
+          "x": 0.5003605335843404,
+          "y": 0.14069369809477283,
+          "width": 0.2888070258853726,
+          "height": 0.7191418335775932
+        },
+        "detected": true
+      }
+    }
+  ],
+  "sequentialFallback": true
+}

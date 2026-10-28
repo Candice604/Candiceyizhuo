@@ -1,0 +1,11 @@
+Audio used on page "01 P2"
+
+Title: Dance of the Sugar Plum Fairies
+Composer: Pyotr Ilyich Tchaikovsky
+Performance/recording: Kevin MacLeod (incompetech.com)
+License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
+License URL: https://creativecommons.org/licenses/by/3.0/
+Source: https://commons.wikimedia.org/wiki/File:Dance_of_the_Sugar_Plum_Fairies_(ISRC_USUAN1100270).oga
+
+The audio file is included unchanged as:
+assets/audio/dance-of-the-sugar-plum-fairies.oga
